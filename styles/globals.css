@@ -1,9 +1,22 @@
+@font-face {
+  font-family: Inter;
+  src: url(../public/Fonts/Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: Inter-light;
+  src: url(../public/Fonts/Inter/static/Inter-Light.ttf);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background: rgb(14, 2, 87);
+  color: #fff; */
+  background: url("https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHVycGxlJTIwcGF0dGVybmVkJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: 100%;
 }
 
 a {
@@ -14,3 +27,49 @@ a {
 * {
   box-sizing: border-box;
 }
+.programming-languages {
+  background: url("/images/background/desk-programmer.jpg");
+  background-size: 135%;
+  background-repeat: no-repeat;
+  font-family: inter;
+}
+.slide {
+  transition-duration: 1s ease;
+}
+.slide-active {
+  transition-duration: 1s;
+  transform: scale(1);
+}
+.slider-background {
+  background: url("/images/slider/background.jpg");
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  animation: movement 15s infinite;
+}
+@keyframes movement {
+  0% {
+    background-size: 135%;
+  }
+  25% {
+    background-size: 140%;
+  }
+  50% {
+    background-size: 145%;
+  }
+  75% {
+    background-size: 140%;
+  }
+  100% {
+    background-size: 135%;
+  }
+}
+
+/* .experience-background {
+  background: url("https://images.unsplash.com/photo-1581904902396-1460f95198c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fHB1cnBsZSUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: 135%;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  z-index: 1;
+} */
