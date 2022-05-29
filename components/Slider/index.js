@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { SliderImages } from "./SliderImages";
+import { SliderImages } from "./sliderImages";
 import { IoMdArrowDropleft, IoMdArrowDropright } from "react-icons/io";
 
 export default function ImageSlider({ slides }) {
