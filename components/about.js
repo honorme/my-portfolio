@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import ImageSlider from "./slider";
-import { SliderImages } from "./slider/sliderImages";
+import ImageSlider from "./Slider";
+import { SliderImages } from "./Slider/sliderImages";
 import { AiFillGithub } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
 import { BsTelegram } from "react-icons/bs";
@@ -39,36 +39,42 @@ export default function About() {
                   <Image
                     className={`rounded-full" ${HoverOp} `}
                     src={"/images/languages/html_logo.svg"}
+                    alt="lang"
                     width={"40%"}
                     height={"40%"}
                   />
                   <Image
                     className={`rounded-[5px] ${HoverOp} `}
                     src={"/images/languages/react-logo.svg"}
+                    alt="lang"
                     width={"40%"}
                     height={"40%"}
                   />
                   <Image
                     className={`rounded-[5px] ${HoverOp} `}
                     src={"/images/languages/css3-logo.svg"}
+                    alt="lang"
                     width={"40%"}
                     height={"40%"}
                   />
                   <Image
                     className={`rounded-[5px] ${HoverOp} `}
                     src={"/images/languages/javascript_logo.svg"}
+                    alt="lang"
                     width={"40%"}
                     height={"40%"}
                   />
                   <Image
                     className={`rounded-[5px] ${HoverOp} `}
                     src={"/images/languages/rest-api.svg"}
+                    alt="lang"
                     width={"40%"}
                     height={"40%"}
                   />
                   <Image
                     className={`rounded-[5px] ${HoverOp} `}
                     src={"/images/languages/next-js.svg"}
+                    alt="lang"
                     width={"40%"}
                     height={"40%"}
                   />

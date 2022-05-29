@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { SliderImages } from "./sliderImages";
+import { SliderImages } from "./SliderImages";
 import { IoMdArrowDropleft, IoMdArrowDropright } from "react-icons/io";
 
 export default function ImageSlider({ slides }) {
@@ -38,7 +38,7 @@ export default function ImageSlider({ slides }) {
               <Image
                 className="image rounded-[5px]  "
                 src={slide.image}
-                alt="travel image"
+                alt="stuff"
                 width={"500%"}
                 height={"250%"}
               />
